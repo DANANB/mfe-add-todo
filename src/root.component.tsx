@@ -19,7 +19,10 @@ export default function Root(props) {
               <Form.Label>What's left todo?</Form.Label>
               <Form.Control as="textarea" rows={3} />
             </Form.Group>
-            <Button variant="primary">Add</Button>
+            <Button style={{ marginRight: "1rem" }} variant="primary">
+              Add
+            </Button>
+            <Button variant="danger">Reset</Button>
           </Form>
         </Col>
       </Row>
